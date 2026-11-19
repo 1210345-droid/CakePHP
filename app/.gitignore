@@ -1,0 +1,29 @@
+# CakePHP 5.x + DebugKit + Bake Temporary files
+/tmp/*
+!/tmp/cache
+/tmp/cache/*
+!/tmp/cache/models
+/tmp/cache/models/*
+!/tmp/cache/models/empty
+!/tmp/cache/persistent
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/empty
+!/tmp/cache/views
+/tmp/cache/views/*
+!/tmp/cache/views/empty
+!/tmp/sessions
+/tmp/sessions/*
+!/tmp/sessions/empty
+!/tmp/tests
+/tmp/tests/*
+!/tmp/tests/empty
+/logs/*
+!/logs/empty
+
+# CakePHP 5.x + Composer
+/vendor/*
+/config/.env
+
+# OS generated files
+.DS_Store
+Thumbs.db

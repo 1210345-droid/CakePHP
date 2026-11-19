@@ -1,0 +1,9 @@
+.DS_Store
+.idea/
+.vscode/
+*.log
+app/vendor/
+app/tmp/*
+!app/tmp/.gitkeep
+app/logs/*
+!app/logs/.gitkeep
